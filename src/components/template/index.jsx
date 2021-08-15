@@ -1,11 +1,11 @@
 import Thumb from "../thumb";
-import { Content, Wrapper } from "./styles";
+import { Content, Wrapper, Button } from "./styles";
 import html2canvas from "html2canvas";
 
 function Template(props) {
   return (
     <Wrapper>
-      <button onClick={Download}>Download</button>
+      <Button onClick={Download}>Baixar imagem</Button>
       <Content id="template">{renderItems(props)}</Content>
     </Wrapper>
   );

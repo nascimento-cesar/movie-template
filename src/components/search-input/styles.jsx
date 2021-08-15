@@ -6,12 +6,18 @@ export const Wrapper = styled.div`
 `;
 
 export const Label = styled.label`
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
   &:after {
     content: ": ";
   }
 `;
 
-export const Input = styled.input``;
+export const Input = styled.input`
+  font-size: 16px;
+  width: 100%;
+`;
 
 export const Option = styled.div`
   cursor: pointer;
