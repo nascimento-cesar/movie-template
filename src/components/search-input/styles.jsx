@@ -24,8 +24,8 @@ export const Option = styled.div`
 `;
 
 export const SearchResults = styled.div`
-  background-color: #efefef;
-  top: 30px;
+  background-color: #000;
+  top: 50px;
   position: absolute;
   width: 600px;
   z-index: 100;
