@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: #efefef;
+  background-color: #000;
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
@@ -18,5 +18,9 @@ export const Frame = styled.div`
 `;
 
 export const Caption = styled.div`
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
   text-align: center;
 `;
