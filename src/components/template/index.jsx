@@ -1,11 +1,22 @@
 import Thumb from "../thumb";
-import { Content, Wrapper, Button } from "./styles";
+import { Content, Wrapper, Button, ButtonWrapper } from "./styles";
 import html2canvas from "html2canvas";
+import GitHubButton from "react-github-btn";
 
 function Template(props) {
   return (
     <Wrapper>
-      <Button onClick={Download}>Baixar imagem</Button>
+      <ButtonWrapper>
+        <Button onClick={Download}>Baixar imagem</Button>
+        <GitHubButton
+          href="https://github.com/cncarvalho/movie-template"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star cncarvalho/movie-template on GitHub"
+        >
+          Star
+        </GitHubButton>
+      </ButtonWrapper>
       <Content id="template">{renderItems(props)}</Content>
     </Wrapper>
   );

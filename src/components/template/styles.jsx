@@ -21,3 +21,8 @@ export const Button = styled.button`
   font-size: 18px;
   margin-bottom: 2rem;
 `;
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
